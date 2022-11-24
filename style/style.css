@@ -65,6 +65,7 @@ label {
 label:hover {
   border-top: 3px solid #ffffff;
   border-bottom: 3px solid #ffffff;
+  background: #625e77;
 }
 
 input {
@@ -87,7 +88,6 @@ input {
   display: flex;
   align-items: center;
   padding-left: 12px;
-  /* overflow: hidden; */
 }
 
 .box:first-child {
@@ -110,6 +110,7 @@ input:checked + label {
 input:checked + label:hover {
   border-top: 3px solid #ffffff;
   border-bottom: 3px solid #ffffff;
+  background: #625e77;
 }
 
 .bon-appetit {
