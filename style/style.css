@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.main {
+  max-width: 793px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 82px;
+  background: #4a4f56;
+}
+.title {
+  text-align: center;
+  padding: 19px 0 4px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ff8984;
+}
+
+.sub-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  color: #ff8984;
+  padding-bottom: 12px;
+}
+
+.main {
+  background: #3b3f45;
+}
+
+label {
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  max-width: 534px;
+  width: 110%;
+  display: flex;
+  align-items: center;
+  padding: 8px 0 10px 35px;
+  margin-left: -5%;
+  background: #88839e;
+  border-top: 3px solid #88839e;
+  border-bottom: 3px solid #88839e;
+  transition: all 200ms ease-in-out;
+}
+
+label:hover {
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+input {
+  z-index: 10;
+}
+
+.comment {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  margin-left: 10px;
+}
+
+.box {
+  max-width: 534px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 0;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  /* overflow: hidden; */
+}
+
+.box:first-child {
+  margin: 20px auto 0;
+}
+
+.box:last-child {
+  margin-bottom: 45px;
+}
+
+input:checked + label {
+  background: #7a7593;
+  text-decoration: line-through;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #9b96ac;
+  border-top: 3px solid #7a7593;
+  border-bottom: 3px solid #7a7593;
+}
+
+input:checked + label:hover {
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.bon-appetit {
+  max-width: 534px;
+  width: 100%;
+  height: 45px;
+  background: #4a4f56;
+  line-height: 21px;
+  font-size: 18px;
+  text-align: center;
+  color: #ff8984;
+  padding: 12px 0;
+  margin: 0 auto;
+}
+
+footer {
+  padding-bottom: 45px;
+}
