@@ -10,6 +10,7 @@ html,
 body {
   font-family: "Roboto";
   font-style: normal;
+  background: #3b3f45;
 }
 
 .main {
@@ -59,13 +60,14 @@ label {
   background: #88839e;
   border-top: 3px solid #88839e;
   border-bottom: 3px solid #88839e;
-  transition: all 200ms ease-in-out;
+  transition: all 0.1s ease-in;
 }
 
 label:hover {
   border-top: 3px solid #ffffff;
   border-bottom: 3px solid #ffffff;
   background: #625e77;
+  z-index: 9;
 }
 
 input {
